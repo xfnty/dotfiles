@@ -1,0 +1,112 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"update_check": false,
+
+	"font_size": 11,
+
+	"highlight_line": true,
+
+	"save_on_focus_lost": true,
+
+	"detect_indentation": false,
+
+	"translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "use_tab_stops": true,
+
+    "fold_buttons": false,
+
+    "rulers":
+    [
+        [79, "dotted"]
+	],
+
+	"word_wrap": false, // I hate auto-wrapped text.
+    "wrap_width": 79, // This is used by a plugin elsewhere
+
+	"auto_complete_cycle": true,
+	"shift_tab_unindent": true,
+	"scroll_speed": 0,
+	"theme": "Adaptive.sublime-theme",
+	"tree_animation_enabled": false,
+	"animation_enabled": false,
+	"hardware_acceleration": "opengl",
+	"remember_full_screen": true,
+	"show_full_path": false,
+	"preview_on_click": true,
+	"drag_text": false,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"AppleScript",
+		"ASP",
+		"Clojure",
+		"D",
+		"Erlang",
+		"Go",
+		"Graphviz",
+		"Groovy",
+		"Haskell",
+		"Java",
+		"Jinja2",
+		"Language - English",
+		"LaTeX",
+		"Lisp",
+		"Matlab",
+		"Meson",
+		"Objective-C",
+		"OCaml",
+		"Pascal",
+		"Perl",
+		"PHP",
+		"R",
+		"Rails",
+		"Ruby",
+		"Scala",
+		"SQL",
+		"SublimeLinter-cpplint",
+		"TCL",
+		"Textile",
+		"Vintage",
+	],
+
+	"auto_complete_triggers":
+	[
+		{"selector": "text.html, text.xml", "characters": "<",},
+		{"selector": "punctuation.accessor", "rhs_empty": true,},
+		{"selector": "source.python", "characters": ".",},
+	],
+
+	"folder_exclude_patterns": [
+		".svn", 
+		".git", 
+		".hg", 
+		"CVS", 
+		".Trash", 
+		".Trash-*",
+	],
+	"file_exclude_patterns": [
+		//"*.exe", 
+		// "*.dll", 
+		//"*.so", 
+		//"*.dylib", 
+		"*.ncb", 
+		"*.sdf", 
+		// "*.pdb", 
+		"*.idb", 
+		".DS_Store", 
+		".directory", 
+		"desktop.ini", 
+		"*.class", 
+		"*.psd", 
+		// "*.db", 
+	],
+    "clients": {
+        "zig": {
+            "command": ["zls"],
+            "enabled": true,
+            "selector": "source.zig",
+        },
+    },
+}

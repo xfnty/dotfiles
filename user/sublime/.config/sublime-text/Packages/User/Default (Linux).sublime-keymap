@@ -1,0 +1,21 @@
+[
+    {
+        "keys": ["ctrl+shift+s"],
+        "command": "auto_save"
+    },
+	{
+        "keys": ["f1"],
+        "command": "show_overlay",
+        "args": {
+            "overlay": "command_palette",
+            "text": "LSP: ",
+        }
+    },
+    { 
+        "keys": ["ctrl+shift+o"], 
+        "command": "prompt_open_folder"
+    },
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+]

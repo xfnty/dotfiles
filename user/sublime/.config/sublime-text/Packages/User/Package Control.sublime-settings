@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"CMake",
+		"Django Syntax",
+		"Dockerfile Syntax Highlighting",
+		"DoxyDoxygen (evolution)",
+		"FileIcons",
+		"INI",
+		"Jinja2",
+		"LSP",
+		"LSP-clangd",
+		"LSP-pyright",
+		"Meson",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-cpplint",
+		"Terminal",
+		"TOML",
+		"Zig Language",
+	],
+	"in_process_packages":
+	[
+	],
+}
