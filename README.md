@@ -1,6 +1,6 @@
 
 ## Notes
-- It is assumed that user name is `main`.
+- It is assumed that the user name is `main` and OS is Arch Linux.
 
 
 ## Setting up
