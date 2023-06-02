@@ -9,6 +9,9 @@ XF86MonBrightness{Down,Up}
 super + space
     /usr/local/bin/switch-kb-layout
 
+#super + {}
+#    sudo systemctl {suspend,reboot,poweroff}
+
 Print
     (cd ~/Pictures; scrot -F 'Screenshot.png')
 
