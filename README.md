@@ -10,9 +10,16 @@ Using [stow](https://www.gnu.org/software/stow/manual/stow.html):
 
 
 ## Applications
-- Terminal: [zsh](https://wiki.archlinux.org/title/Zsh)
-- Browser: [waterfox](https://www.waterfox.net/)
-- Backlight utility: [light](https://archlinux.org/packages/extra/x86_64/light/)
-- Window Manager: [dwm](https://github.com/xfnty/dwm)
-- Background utility: [feh](https://wiki.archlinux.org/title/Feh)
+- **Terminal**: [zsh](https://wiki.archlinux.org/title/Zsh)
+- **Browser**: [waterfox](https://www.waterfox.net/)
+- **Backlight utility**: [light](https://archlinux.org/packages/extra/x86_64/light/)
+- **Window manager**: [dwm](https://github.com/xfnty/dwm)
+- **Background utility**: [feh](https://wiki.archlinux.org/title/Feh)
+- **Hotkey manager**: [sxhkd](https://wiki.archlinux.org/title/Sxhkd)
 
+
+## Other packages
+For Arch linux:
+```
+pactl pamixer
+```

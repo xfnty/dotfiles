@@ -1,0 +1,10 @@
+# Reference: https://github.com/raihanadf/dotfiles/blob/main/config/sxhkd/sxhkdrc
+
+XF86Audio{LowerVolume,RaiseVolume,Mute}
+    /usr/local/bin/volume {down,up,toggle}
+
+XF86MonBrightness{Down,Up}
+    /usr/local/bin/backlight {down,up}
+
+super + space
+    /usr/local/bin/switch-kb-layout
