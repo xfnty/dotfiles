@@ -13,6 +13,7 @@
 	r = reset --soft
 	r1 = reset --soft HEAD~1
     co = checkout
+    l = log --oneline --graph --decorate=short
 [user]
 	email = tsentsevitsky.v@gmail.com
 	name = xfnty
