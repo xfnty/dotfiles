@@ -8,3 +8,9 @@ XF86MonBrightness{Down,Up}
 
 super + space
     /usr/local/bin/switch-kb-layout
+
+Print
+    (cd ~/Pictures; scrot -F 'Screenshot.png')
+
+alt + Print
+    (cd ~/Pictures; scrot --select=capture -F 'Screenshot.png')

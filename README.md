@@ -16,6 +16,8 @@ Using [stow](https://www.gnu.org/software/stow/manual/stow.html):
 - **Window manager**: [dwm](https://github.com/xfnty/dwm)
 - **Background utility**: [feh](https://wiki.archlinux.org/title/Feh)
 - **Hotkey manager**: [sxhkd](https://wiki.archlinux.org/title/Sxhkd)
+- **Media player**: [mpv](https://mpv.io/)
+- **Screenshot utility**: [scrot](https://archlinux.org/packages/extra/x86_64/scrot/)
 
 
 ## Other packages
