@@ -1,4 +1,6 @@
 
+![screenshot](screenshot.png)
+
 ## Notes
 - It is assumed that the user name is `main` and OS is Arch Linux.
 
