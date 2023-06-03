@@ -25,5 +25,5 @@ Using [stow](https://www.gnu.org/software/stow/manual/stow.html):
 ## Other packages
 For Arch linux:
 ```
-pactl pamixer
+pactl pamixer xorg-xset
 ```
