@@ -12,18 +12,15 @@ Using [stow](https://www.gnu.org/software/stow/manual/stow.html):
 
 
 ## Applications
-- **Terminal**: [zsh](https://wiki.archlinux.org/title/Zsh)
-- **Browser**: [waterfox](https://www.waterfox.net/)
-- **Backlight utility**: [light](https://archlinux.org/packages/extra/x86_64/light/)
+- **Shell**: [zsh](https://wiki.archlinux.org/title/Zsh)
 - **Window manager**: [dwm](https://github.com/xfnty/dwm)
-- **Background utility**: [feh](https://wiki.archlinux.org/title/Feh)
+- **Terminal**: [st](https://st.suckless.org/)
 - **Hotkey manager**: [sxhkd](https://wiki.archlinux.org/title/Sxhkd)
-- **Media player**: [mpv](https://mpv.io/)
 - **Screenshot utility**: [scrot](https://archlinux.org/packages/extra/x86_64/scrot/)
 
 
 ## Other packages
 For Arch linux:
 ```
-pactl pamixer xorg-xset
+sudo pacman -S pactl pamixer xorg-xset light feh mpv waterfox
 ```
