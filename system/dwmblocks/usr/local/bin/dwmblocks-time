@@ -9,4 +9,5 @@
 # }
 
 . dwmblocks-util.sh
-display "$(date '+%I:%M:%S') ($(uptime -p))"
+# display "$(date '+%I:%M:%S') ($(uptime -p))"
+display "$(date '+%H:%M:%S')"
