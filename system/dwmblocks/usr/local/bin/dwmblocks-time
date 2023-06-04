@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# function getuptime {
+#   local T=$(cat /proc/uptime)
+#   local H=$((T/60/60%24))
+#   local M=$((T/60%60))
+#   local S=$((T%60))
+#   echo -n "$H:$M:$S"
+# }
+
+. dwmblocks-util.sh
+display "$(date '+%I:%M:%S') ($(uptime -p))"
