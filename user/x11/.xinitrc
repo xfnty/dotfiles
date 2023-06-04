@@ -33,6 +33,7 @@ fi
 
 xset -dpms
 
-picom &
+# picom &
 feh --bg-scale ~/.feh/background.png &
+dwmblocks &
 exec dwm
