@@ -2,10 +2,10 @@
 
 case "$1" in
   "up")
-    sudo light -A 10
+    backlightctl +10
     ;;
 
   "down")
-    sudo light -U 10
+    backlightctl -10
     ;;
 esac
