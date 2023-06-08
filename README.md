@@ -17,11 +17,12 @@ Using [stow](https://www.gnu.org/software/stow/manual/stow.html):
 - **Compositor**: [picom](https://wiki.archlinux.org/title/Picom)
 - **Terminal**: [st](https://st.suckless.org/)
 - **Hotkey manager**: [sxhkd](https://wiki.archlinux.org/title/Sxhkd)
+- **File Manager**: [Thunar](https://wiki.archlinux.org/title/Thunar)
 - **Screenshot utility**: [scrot](https://archlinux.org/packages/extra/x86_64/scrot/)
 
 
 ## Other packages
 For Arch linux:
 ```
-sudo pacman -S pactl pamixer xorg-xset light feh mpv waterfox
+sudo pacman -S pactl pamixer xorg-xset light feh mpv gvfs
 ```
