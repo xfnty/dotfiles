@@ -1,4 +1,4 @@
 #!/bin/sh
 
 . dwmblocks-util.sh
-display "$(backlightctl)L"
+display "$(light | awk -F. '{print $1}')L"

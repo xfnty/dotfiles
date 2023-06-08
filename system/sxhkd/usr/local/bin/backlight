@@ -2,10 +2,13 @@
 
 case "$1" in
   "up")
-    backlightctl +10
+    sudo light -A 10
+    # More info in dwmblocks-async/README.md
+    kill -35 $(pidof dwmblocks)
     ;;
 
   "down")
-    backlightctl -10
+    sudo light -U 10
+    kill -35 $(pidof dwmblocks)
     ;;
 esac
