@@ -24,5 +24,5 @@ Using [stow](https://www.gnu.org/software/stow/manual/stow.html):
 ## Other packages
 For Arch linux:
 ```
-sudo pacman -S pactl pamixer xorg-xset light feh mpv gvfs
+sudo pacman -S pactl pamixer xorg-xset light feh mpv gvfs btop
 ```
