@@ -1,19 +1,23 @@
 [credential "https://github.com"]
-	helper = 
-	helper = !/usr/local/bin/gh auth git-credential
+helper = !/usr/local/bin/gh auth git-credential
+
 [credential "https://gist.github.com"]
-	helper = 
-	helper = !/usr/local/bin/gh auth git-credential
+helper = !/usr/local/bin/gh auth git-credential
+
 [alias]
-	a = add .
-	c = commit
-	s = status
-	b = branch
-	p = push
-	r = reset --soft
-	r1 = reset --soft HEAD~1
-    co = checkout
-    l = log --oneline --graph --decorate=short
+a = add .
+c = commit
+s = status
+b = branch
+p = push
+r = reset --soft
+r1 = reset --soft HEAD~1
+co = checkout
+l = log --oneline --graph --decorate=short
+
 [user]
-	email = tsentsevitsky.v@gmail.com
-	name = xfnty
+email = tsentsevitsky.v@gmail.com
+name = xfnty
+
+[pull]
+rebase = true
